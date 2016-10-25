@@ -1,0 +1,51 @@
+{
+  "name": "nupp-page",
+  "version": "1.0.0",
+  "description": "nupp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "typings install",
+    "typings": "typings",
+    "lite": "lite-server",
+    "build:vendor": "gulp vendor",
+    "build:dev": "gulp clean && gulp vendor && gulp build",
+    "build:dev.watch": "gulp clean && gulp vendor && gulp",
+    "build:production": "gulp clean && gulp vendor && gulp build --production && node systemjs.builder.js"
+  },
+  "author": "Carlos Razo",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/common": "2.0.0",
+    "@angular/compiler": "2.0.0",
+    "@angular/core": "2.0.0",
+    "@angular/forms": "2.0.0",
+    "@angular/http": "2.0.0",
+    "@angular/platform-browser": "2.0.0",
+    "@angular/platform-browser-dynamic": "2.0.0",
+    "@angular/router": "3.0.0",
+    "core-js": "^2.4.1",
+    "ng2-bootstrap": "^1.1.4",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.27",
+    "zone.js": "^0.6.21"
+  },
+  "devDependencies": {
+    "codelyzer": "0.0.22",
+    "concurrently": "^2.2.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-if": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.13.6",
+    "lite-server": "^2.2.2",
+    "systemjs-builder": "^0.15.19",
+    "tslint": "^3.10.2",
+    "typings": "^1.3.2",
+    "yargs": "^4.7.1"
+  }
+}

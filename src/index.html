@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <base href=".">
+    <meta charset="UTF-8">
+    <title>Angular 2 Seed 2.0 version</title>
+    <script src="vendor/core-js/client/shim.min.js"></script>
+    <script src="vendor/zone.js/dist/zone.js"></script>
+    <script src="vendor/reflect-metadata/Reflect.js"></script>
+    <script src="vendor/systemjs/dist/system.src.js"></script>
+
+    <link rel="stylesheet" href="/app/css/main.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+<my-app>Loading...</my-app>
+
+<script>
+    System.import('systemjs.config.js').then(function() {
+        System.import('app/main');
+    }).catch(console.error.bind(console));
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>

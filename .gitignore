@@ -1,0 +1,7 @@
+node_modules/
+bower_components/
+typings/
+build/
+report/
+.DS_Store
+dist/

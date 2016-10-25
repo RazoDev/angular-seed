@@ -1,0 +1,31 @@
+.top-bar{
+  background: white;
+  margin-top: 2em;
+  height: 100px;
+    ul{
+        background: none;
+        li{
+          a{
+            color: black;
+            font-weight: bold;
+          }
+
+          &:hover{
+            border-bottom: 1px solid #EA813D;
+          }
+        }
+    }
+}
+.home-one{
+  background: none !important;
+  border: none;
+  .call-to-action{
+    display: block;
+    width: 250px;
+    margin: auto;
+    border: 1px solid #EA813D;
+    padding: .7em 2em;
+    border-radius: 3px;
+    color: #EA813D;
+  }
+}
