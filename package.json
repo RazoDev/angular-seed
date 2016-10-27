@@ -1,8 +1,12 @@
 {
-  "name": "nupp-page",
+  "name": "Razo-Dev",
   "version": "1.0.0",
-  "description": "nupp",
+  "description": "Angular seed version 2.0 stable",
   "main": "index.js",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/RazoDev/angular-seed.git"
+    },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "typings install",
@@ -13,6 +17,12 @@
     "build:dev.watch": "gulp clean && gulp vendor && gulp",
     "build:production": "gulp clean && gulp vendor && gulp build --production && node systemjs.builder.js"
   },
+  "keywords": [
+    "angular2",
+    "starter",
+    "seed",
+    "gulp"
+  ],
   "author": "Carlos Razo",
   "license": "ISC",
   "dependencies": {
